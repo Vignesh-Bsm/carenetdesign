@@ -1,0 +1,255 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  background:white;
+  margin:0 auto;
+  font: 14px/1.35 'avenir', 'Helvetica', Arial, sans-serif;
+ background-color: #fff;
+ color: #464646;
+ overflow-x: hidden;
+ }
+ .h3-align{
+   text-align: justify;
+ }
+ p {
+   text-align: justify;
+   }
+ .icon-p{
+   text-align:center;
+ }
+ .nav-left{
+     position: relative;
+     left: 50%;
+ }
+ .nav-full{
+     width:100%;
+ }
+ /* .banner{
+     background: url('./assets/images/hero-1.svg');
+ } */
+ .image-pos{
+  width: 85%;
+  height: 87%;
+  position: relative;
+  bottom: 11%;
+  left: 14%;
+ }
+ .banner-img{
+     width: 135%;
+     margin-left: -16%;
+     height: 75vh;
+ }
+
+ /* media-query */
+ @media only screen and (max-width: 1400px) and (min-width: 760px)  {
+  .navbar-toggler {
+    display: none;
+    }  
+
+   #navbarNav,#navbarNav2{
+     display:block;
+   }
+}
+ .container{
+     margin:0;
+ }
+ .read-btn{
+     position: relative;
+     left:0;
+ 
+     color: white !important;
+     bottom: 16px;
+     border: 1px solid #32409a !important;
+     background: #32409a !important;
+     width: 20% !important;
+     border-radius: 10px !important;
+     transition: 5s;
+ }
+ .read-btn:hover{
+   background:rgba(50, 64, 154, 0.9) !important;
+ }
+ .title{
+     position: relative;
+     bottom: 10em;
+ }
+ /* === */
+ .box{
+     position: relative;
+     display: inline-block; /* Make the width of box same as image */
+ }
+ .box .text{
+     position: absolute;
+     z-index: 999;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     top: 40%; /* Adjust this value to move the positioned div up and down */
+     text-align: center;
+     width: 60%; /* Set the width of the positioned div */
+ }
+ /* transistion */
+ /* .item-1, 
+ .item-2, 
+ .item-3 {
+   position: absolute;
+   display: block;
+   top: 2em;
+   
+   width: 60%;
+   
+   font-size: 2em;
+ 
+   animation-duration: 20s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ } */
+ 
+ /* ==== */
+ body {
+     background: #333333;
+     font-family: 'Titillium Web', Helvetica, Arial;
+     font-size: 16px;
+     color: #eeeeee;
+     font-weight: 300;
+     margin: 0;
+     padding: 0;
+      -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+   
+   }
+   h1, h2, h3, h4, h5, h6 {
+     margin-top: 0;
+   }
+   h1 {
+     font-size: 3rem;
+     margin-bottom: 3rem;
+   }
+   h2 {
+     font-size: 2rem;
+     margin-bottom: 1rem;
+   }
+   h3 {
+     font-size: 1.5rem;
+     line-height: 3rem;
+   }
+   .container {
+     margin-top: 3rem;
+     text-align: center;
+   }
+   .slick-prev::before {
+     content: "←";
+     display:none;
+ }  
+ 
+ .slick-next {
+     right: -25px;
+     display: none !important;
+ }
+ .img-icon{
+   color:black;
+   transition: 40s;
+ }
+ .img-icon:hover{
+   width:50px;
+   /* height:100px; */
+ }
+ .cat-btn{
+   position: relative;
+   top:2em;
+   left: 40%;
+   width:20% !important;
+    background: #32409a !important;
+     border-radius: 10px !important;
+     transition: 5s;
+ }
+ .cat-btn:hover{
+   background:rgba(50, 64, 154, 0.9) !important;
+ }
+ 
+ .img-row{
+   margin-bottom: 12em;
+   margin-top:5em;
+ }
+ .img-cont{
+   margin-bottom:1em;
+ }
+ .slid-pos{
+   position: relative !important;
+   bottom:0.8em;
+   left:4.1em;
+ }
+ .main-title{
+   color:white;
+   font-size: 5em;
+   position: relative;
+   top: 1em;
+   right: 48%;
+ }
+ .cont-width{
+   max-width: 100% !important;
+    margin-top: 0em !important;
+ }
+ .head-space{
+   margin-bottom: 5em;
+   padding-top: 1em;
+ }
+ /* neww */
+
+ .navbar-toggle{
+  background-color: transparent;
+  border: none;
+}
+
+.active {
+  border-bottom: #F48A2C solid 2px;
+}
+.nav-item{
+  margin-right: 50px;
+}
+.nav-link{
+  color: #62697A;
+}
+
+.navbar {
+  margin-top: 25px;
+}
+
+/* when the screen size goes below 374 px... */
+@media (max-width: 374px)
+{
+  .navbar-toggler {
+  display: none;
+  }    
+  #navbarNav{
+    display:block;
+  }
+
+}
+.buss-img{
+  background: rgba(31, 41, 57, 1);
+  border: 2px solid #314B5C;
+  border-radius: 10px;
+  transition-delay: 100ms;
+}
+.buss-img:hover{
+  background: #253041;
+  height: 250px;
+  
+}
+.business-bot{
+  margin-bottom:6em;
+ 
+}
+.business-bot >h4{
+   color: white;
+    position: relative;
+    left: 2%;
+    margin-top: 1em;
+}
+.grow{
+  margin-bottom: 3em;
+  padding-top: 1em;
+}
+.insigt-pad{
+  padding-top: 15px;
+}
